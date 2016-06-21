@@ -1,0 +1,30 @@
+<warpconfig profile="default" version="1.0">
+    <profile name="default">
+        <map display="1" id="1">
+            <warp brightness="1" contrast="1" height="2" method="bilinear" saturation="1" width="2">
+                <controlpoint x="0" y="1"/>
+                <controlpoint x="0" y="0"/>
+                <controlpoint x="1" y="1"/>
+                <controlpoint x="1" y="0"/>
+                <blend adaptive="0" exponent="2" linear="0" resolution="16">
+                    <edges bottom="0" left="0" right="0" top="0"/>
+                    <gamma blue="1" green="1" red="1"/>
+                    <luminance blue="0.5" green="0.5" red="0.5"/>
+                </blend>
+            </warp>
+        </map>
+        <map display="1" id="2">
+            <warp brightness="1" contrast="1" height="2" method="bilinear" saturation="1" width="2">
+                <controlpoint x="2" y="1"/>
+                <controlpoint x="2" y="0"/>
+                <controlpoint x="1" y="1"/>
+                <controlpoint x="1" y="0"/>
+                <blend adaptive="0" exponent="2" linear="0" resolution="16">
+                    <edges bottom="0" left="0" right="0" top="0"/>
+                    <gamma blue="1" green="1" red="1"/>
+                    <luminance blue="0.5" green="0.5" red="0.5"/>
+                </blend>
+            </warp>
+        </map>
+    </profile>
+</warpconfig>
